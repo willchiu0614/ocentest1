@@ -10,10 +10,14 @@
 		B3320B5F204FC26D005848E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3320B5E204FC26D005848E4 /* AppDelegate.swift */; };
 		B3320B61204FC26D005848E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3320B60204FC26D005848E4 /* ViewController.swift */; };
 		B3320B64204FC26D005848E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3320B62204FC26D005848E4 /* Main.storyboard */; };
-		B3320B66204FC26D005848E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3320B65204FC26D005848E4 /* Assets.xcassets */; };
 		B3320B69204FC26D005848E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3320B67204FC26D005848E4 /* LaunchScreen.storyboard */; };
 		B3320B74204FC26D005848E4 /* ocentestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3320B73204FC26D005848E4 /* ocentestTests.swift */; };
 		B3320B7F204FC26D005848E4 /* ocentestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3320B7E204FC26D005848E4 /* ocentestUITests.swift */; };
+		B3320B992078C7D1005848E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3320B982078C7D1005848E4 /* Assets.xcassets */; };
+		B3320B9A2078C7D1005848E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3320B982078C7D1005848E4 /* Assets.xcassets */; };
+		B3320B9B2078C7D1005848E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3320B982078C7D1005848E4 /* Assets.xcassets */; };
+		B3320B9E2078C850005848E4 /* ocentestTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = B3320B6F204FC26D005848E4 /* ocentestTests.xctest */; };
+		B3320B9F2078C853005848E4 /* ocentestUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = B3320B7A204FC26D005848E4 /* ocentestUITests.xctest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		B3320B5E204FC26D005848E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3320B60204FC26D005848E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3320B63204FC26D005848E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B3320B65204FC26D005848E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3320B68204FC26D005848E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3320B6A204FC26D005848E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3320B6F204FC26D005848E4 /* ocentestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ocentestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +50,7 @@
 		B3320B7A204FC26D005848E4 /* ocentestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ocentestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3320B7E204FC26D005848E4 /* ocentestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ocentestUITests.swift; sourceTree = "<group>"; };
 		B3320B80204FC26D005848E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3320B982078C7D1005848E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +101,10 @@
 		B3320B5D204FC26D005848E4 /* ocentest */ = {
 			isa = PBXGroup;
 			children = (
+				B3320B982078C7D1005848E4 /* Assets.xcassets */,
 				B3320B5E204FC26D005848E4 /* AppDelegate.swift */,
 				B3320B60204FC26D005848E4 /* ViewController.swift */,
 				B3320B62204FC26D005848E4 /* Main.storyboard */,
-				B3320B65204FC26D005848E4 /* Assets.xcassets */,
 				B3320B67204FC26D005848E4 /* LaunchScreen.storyboard */,
 				B3320B6A204FC26D005848E4 /* Info.plist */,
 			);
@@ -233,7 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3320B69204FC26D005848E4 /* LaunchScreen.storyboard in Resources */,
-				B3320B66204FC26D005848E4 /* Assets.xcassets in Resources */,
+				B3320B992078C7D1005848E4 /* Assets.xcassets in Resources */,
 				B3320B64204FC26D005848E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +246,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3320B9A2078C7D1005848E4 /* Assets.xcassets in Resources */,
+				B3320B9E2078C850005848E4 /* ocentestTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +255,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3320B9B2078C7D1005848E4 /* Assets.xcassets in Resources */,
+				B3320B9F2078C853005848E4 /* ocentestUITests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
